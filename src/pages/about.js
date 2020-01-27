@@ -76,7 +76,6 @@ const AboutPage = ({ data }) => {
             <Link to="/contact">contact me</Link> or connect via any of the
             profiles below.
           </p>
-
           <Image fluid={aboutImage} alt="Stuart Mackenzie" />
         </div>
       </div>
