@@ -1,7 +1,7 @@
-import React from "react"
-import PropTypes from "prop-types"
-import Helmet from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
+import React from 'react'
+import PropTypes from 'prop-types'
+import Helmet from 'react-helmet'
+import { useStaticQuery, graphql } from 'gatsby'
 
 const SEO = ({ description, lang, meta, keywords, title }) => {
   const data = useStaticQuery(graphql`
@@ -11,6 +11,7 @@ const SEO = ({ description, lang, meta, keywords, title }) => {
           title
           description
           author
+          siteUrl
         }
       }
     }
@@ -19,10 +20,11 @@ const SEO = ({ description, lang, meta, keywords, title }) => {
     title: siteTitle,
     description: siteDescription,
     author,
+    siteUrl,
   } = data.site.siteMetadata
   const metaTitle = title || siteTitle
   const metaDescription = description || siteDescription
-
+  const cardURL = siteUrl + '/summary_sq.png'
   return (
     <Helmet
       htmlAttributes={{
@@ -63,6 +65,10 @@ const SEO = ({ description, lang, meta, keywords, title }) => {
           name: `twitter:creator`,
           content: author,
         },
+        {
+          name: `twitter:image`,
+          content: cardURL,
+        },
       ]
         .concat(
           keywords.length > 0
@@ -81,13 +87,13 @@ SEO.defaultProps = {
   lang: `en`,
   meta: [],
   keywords: [
-    "stuart mackenzie",
-    "stuart",
-    "mackenzie",
-    "blog",
-    "home",
-    "uk",
-    "personal site",
+    'stuart mackenzie',
+    'stuart',
+    'mackenzie',
+    'blog',
+    'home',
+    'uk',
+    'personal site',
   ],
 }
 
