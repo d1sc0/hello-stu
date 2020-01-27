@@ -25,27 +25,6 @@ const AboutPage = ({ data }) => {
         <div className={style.postContent}>
           <h1 className={style.title}>Stuart Mackenzie</h1>
           <p>
-            I live in <a href="https://www.visit-dorset.com/">Dorset</a> but
-            spend much of my time working out of London transforming public
-            services as the Product & Technology Director at{' '}
-            <a href="https://wearefuturegov.com">FutureGov</a>.
-          </p>
-          <p>
-            When not working I'm also known for being a father, husband,
-            technology nerd, photographer,{' '}
-            <a href="https://www.instagram.com/m0nty_d0g/">dog owner</a>,{' '}
-            <a href="https://www.pomranka.net/podgoat-cover/">podcaster</a>,{' '}
-            <a href="https://www.strava.com/athletes/1170885">runner</a> and
-            exotic disco dancer.{' '}
-          </p>
-          <p>
-            I use this site as a sandbox to test ideas and occassionally share
-            my thoughts and reflections. Feel free to{' '}
-            <Link to="/contact">contact me</Link> or connect via any of the
-            profiles below.
-          </p>
-          <strong>Social Profiles:</strong>
-          <p>
             <a href="https://twitter.com/_disco" className={style.social}>
               <FaTwitter size="1.5rem" />
             </a>
@@ -77,11 +56,28 @@ const AboutPage = ({ data }) => {
               <FaStrava size="1.5rem" />
             </a>
           </p>
-          <Image
-            fluid={aboutImage}
-            className="about-image rounded"
-            alt="Stuart Mackenzie"
-          />
+          <p>
+            I live in <a href="https://www.visit-dorset.com/">Dorset</a> but
+            spend much of my time working out of London transforming public
+            services as the Product & Technology Director at{' '}
+            <a href="https://wearefuturegov.com">FutureGov</a>.
+          </p>
+          <p>
+            When not working I'm also known for being a father, husband,
+            technology nerd, photographer,{' '}
+            <a href="https://www.instagram.com/m0nty_d0g/">dog owner</a>,{' '}
+            <a href="https://www.pomranka.net/podgoat-cover/">podcaster</a>,{' '}
+            <a href="https://www.strava.com/athletes/1170885">runner</a> and
+            exotic disco dancer.{' '}
+          </p>
+          <p>
+            I use this site as a sandbox to test ideas and occassionally share
+            my thoughts and reflections. Feel free to{' '}
+            <Link to="/contact">contact me</Link> or connect via any of the
+            profiles below.
+          </p>
+
+          <Image fluid={aboutImage} alt="Stuart Mackenzie" />
         </div>
       </div>
     </Layout>
