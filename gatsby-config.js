@@ -1,37 +1,33 @@
 const postCssPresetEnv = require(`postcss-preset-env`)
-const postCSSNested = require("postcss-nested")
-const postCSSUrl = require("postcss-url")
-const postCSSImports = require("postcss-import")
-const cssnano = require("cssnano")
-const postCSSMixins = require("postcss-mixins")
+const postCSSNested = require('postcss-nested')
+const postCSSUrl = require('postcss-url')
+const postCSSImports = require('postcss-import')
+const cssnano = require('cssnano')
+const postCSSMixins = require('postcss-mixins')
 
 module.exports = {
   siteMetadata: {
-    title: `hello stu`,
+    title: `Hello Stu`,
     description: `A simple starter for Gatsby. That's it.`,
-    author: `@_disco`,
-    logo: {
-      src: "",
-      alt: "",
-    },
+    author: `Stuart Mackenzie`,
     siteUrl: `https://hellostu.xyz`,
-    logoText: "hello stu",
-    defaultTheme: "dark",
+    logoText: 'hello stu',
+    defaultTheme: 'light',
     postsPerPage: 5,
     showMenuItems: 3,
-    menuMoreText: "Show more",
+    menuMoreText: 'Show more',
     mainMenu: [
       {
-        title: "About",
-        path: "/about",
+        title: 'About',
+        path: '/about',
       },
       {
-        title: "Contact",
-        path: "/contact",
+        title: 'Contact',
+        path: '/contact',
       },
       {
-        title: "Blog",
-        path: "/blog",
+        title: 'Blog',
+        path: '/blog',
       },
     ],
   },
@@ -70,12 +66,12 @@ module.exports = {
           postCSSMixins(),
           postCSSNested(),
           postCssPresetEnv({
-            importFrom: "src/styles/variables.css",
+            importFrom: 'src/styles/variables.css',
             stage: 1,
             preserve: false,
           }),
           cssnano({
-            preset: "default",
+            preset: 'default',
           }),
         ],
       },
@@ -87,7 +83,7 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: "gatsby-remark-embed-video",
+            resolve: 'gatsby-remark-embed-video',
             options: {
               related: false,
               noIframeBorder: true,
@@ -109,7 +105,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
-              classPrefix: "language-",
+              classPrefix: 'language-',
               inlineCodeMarker: null,
               aliases: {},
               showLineNumbers: false,
@@ -123,7 +119,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `hello-stu`,
+        name: `Hello Stu`,
         short_name: `hello-stu`,
         start_url: `/`,
         background_color: `#292a2d`,
