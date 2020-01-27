@@ -17,9 +17,9 @@ const IndexPage = () => (
         </p>
         <p className={style.introText}>
           I'm the Product & Technology Director at{' '}
-          <a href="https://www.wearefuturegov.com/">FutureGov</a>, where we work
-          in organisations across the public sector to design and build better
-          services.
+          <a href="https://www.wearefuturegov.com/">FutureGov</a>. We work with
+          teams in and around public sector organisations to design and build
+          better services.
         </p>
         <p className={style.introText}>
           I use this site to test and prototype ideas and when the mood takes me
