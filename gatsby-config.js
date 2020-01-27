@@ -16,7 +16,7 @@ module.exports = {
     },
     siteUrl: `https://hellostu.xyz/`,
     logoText: 'hello stu',
-    defaultTheme: 'dark',
+    defaultTheme: 'light',
     postsPerPage: 5,
     showMenuItems: 3,
     menuMoreText: 'Show more',
