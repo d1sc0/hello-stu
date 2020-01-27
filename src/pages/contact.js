@@ -52,7 +52,7 @@ const ContactPage = () => (
               Message
             </label>
             <textarea
-              rows="5"
+              rows="3"
               name="message"
               id="message"
               className={style.formcontrol}
