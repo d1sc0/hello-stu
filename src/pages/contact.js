@@ -7,7 +7,7 @@ const ContactPage = () => (
   <Layout>
     <SEO
       title="Contact"
-      description="Get in touch, send me a message, reach out and ask me questions!"
+      description="Get in touch, send me a message, reach out and ask me any questions!"
     />
     <div className={style.post}>
       <div className={style.postContent}>
