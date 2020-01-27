@@ -1,9 +1,9 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
-import Image from "gatsby-image"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import style from "../styles/post.module.css"
+import React from 'react'
+import { Link, graphql } from 'gatsby'
+import Image from 'gatsby-image'
+import Layout from '../components/layout'
+import SEO from '../components/seo'
+import style from '../styles/post.module.css'
 import {
   FaTwitter,
   FaLinkedin,
@@ -11,15 +11,15 @@ import {
   FaGithub,
   FaYoutube,
   FaStrava,
-} from "react-icons/fa"
+} from 'react-icons/fa'
 
 const AboutPage = ({ data }) => {
   const aboutImage = data.aboutImage.childImageSharp.fluid
   return (
     <Layout>
-      <SEO 
-      title="about Stuart Mackenzie" 
-      description="All about Stuart Mackenzie - Director of Product & Tech at FutureGov. Also known as a father, husband, occassional runner, podcaster, photographer, blogger and nice human."
+      <SEO
+        title="About Stuart Mackenzie"
+        description="All about Stuart Mackenzie - Director of Product & Tech at FutureGov. Also known as a father, husband, occassional runner, podcaster, photographer, blogger and nice human."
       />
       <div className={style.post}>
         <div className={style.postContent}>
@@ -27,20 +27,20 @@ const AboutPage = ({ data }) => {
           <p>
             I live in <a href="https://www.visit-dorset.com/">Dorset</a> but
             spend much of my time working out of London transforming public
-            services as the Product & Technology Director at{" "}
+            services as the Product & Technology Director at{' '}
             <a href="https://wearefuturegov.com">FutureGov</a>.
           </p>
           <p>
             When not working I'm also known for being a father, husband,
-            technology nerd, photographer,{" "}
-            <a href="https://www.instagram.com/m0nty_d0g/">dog owner</a>,{" "}
-            <a href="https://www.pomranka.net/podgoat-cover/">podcaster</a>,{" "}
+            technology nerd, photographer,{' '}
+            <a href="https://www.instagram.com/m0nty_d0g/">dog owner</a>,{' '}
+            <a href="https://www.pomranka.net/podgoat-cover/">podcaster</a>,{' '}
             <a href="https://www.strava.com/athletes/1170885">runner</a> and
-            exotic disco dancer.{" "}
+            exotic disco dancer.{' '}
           </p>
           <p>
             I use this site as a sandbox to test ideas and occassionally share
-            my thoughts and reflections. Feel free to{" "}
+            my thoughts and reflections. Feel free to{' '}
             <Link to="/contact">contact me</Link> or connect via any of the
             profiles below.
           </p>

@@ -14,7 +14,7 @@ module.exports = {
       src: '',
       alt: '',
     },
-    siteUrl: `https://hellostu.xyz`,
+    siteUrl: `https://hello-stu.now.sh/`,
     logoText: 'hello stu',
     defaultTheme: 'light',
     postsPerPage: 5,
