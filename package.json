@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-hello-friend",
-  "description": "A simple starter for Gatsby. That's it.",
-  "version": "0.2.0",
-  "author": "Radek Kozieł <radoslaw.koziel@gmail.com>",
+  "name": "hello-stu",
+  "description": "Personal Website of Stuart Mackenzie",
+  "version": "0.1.0",
+  "author": "Stuart Mackenzie",
   "keywords": [
     "gatsby",
     "minimal",
@@ -69,9 +69,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/panr/gatsby-starter-hello-friend"
+    "url": "https://github.com/d1sc0/hello-stu"
   },
   "bugs": {
-    "url": "https://github.com/panr/gatsby-starter-hello-friend/issues"
+    "url": "https://github.com/d1sc0/hello-stu/issues"
   }
 }
