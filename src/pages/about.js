@@ -19,7 +19,7 @@ const AboutPage = ({ data }) => {
     <Layout>
       <SEO
         title="About Stuart Mackenzie"
-        description="All about Stuart Mackenzie - Director of Product & Tech at FutureGov. Also known as a father, husband, occassional runner, podcaster, photographer, blogger and nice human."
+        description="Stuart Mackenzie - Director of Product & Tech at FutureGov. Also known as a father, husband, occassional runner, podcaster, photographer, blogger and nice human."
       />
       <div className={style.post}>
         <div className={style.postContent}>
