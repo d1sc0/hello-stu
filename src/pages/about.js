@@ -17,7 +17,10 @@ const AboutPage = ({ data }) => {
   const aboutImage = data.aboutImage.childImageSharp.fluid
   return (
     <Layout>
-      <SEO title="about" />
+      <SEO 
+      title="about Stuart Mackenzie" 
+      description="All about Stuart Mackenzie - Director of Product & Tech at FutureGov. Also known as a father, husband, occassional runner, podcaster, photographer, blogger and nice human."
+      />
       <div className={style.post}>
         <div className={style.postContent}>
           <h1 className={style.title}>Stuart Mackenzie</h1>

@@ -6,7 +6,10 @@ import style from "../styles/post.module.css"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="home" />
+    <SEO 
+    title="home" 
+    description="Home of Stuart Mackenzie - Director of Product & Tech at FutureGov. Also known as a father, husband, occassional runner, podcaster, photographer, blogger and nice human."
+    />
     <div className={style.post}>
       <div className={style.postContent}>
         <p className={style.introText}>

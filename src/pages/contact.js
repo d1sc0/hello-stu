@@ -6,7 +6,10 @@ import style from "../styles/post.module.css"
 
 const ContactPage = () => (
   <Layout>
-    <SEO title="contact" />
+    <SEO 
+    title="contact" 
+    description="Get in touch, send me a message, reach out and ask me questions!"
+    />
     <div className={style.post}>
       <div className={style.postContent}>
         <h1 className={style.title}>Contact Stu</h1>

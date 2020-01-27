@@ -3,7 +3,7 @@
 ## Things to do
 
 - fix colour contrast issues
-- create an icon and logo
+- make 404 page better
 - configure SEO and twitter cards
 - update contact form
 - update about page content

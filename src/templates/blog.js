@@ -13,7 +13,10 @@ const Blog = ({ data, pageContext: { nextPagePath, previousPagePath } }) => {
 
   return (
     <>
-      <SEO title="blog" />
+      <SEO 
+      title="blog" 
+      description="Thoughts and reflections of Stuart Mackenzie"
+      />
       <Layout>
         {posts.map(({ node }) => {
           const {
