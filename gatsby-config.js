@@ -10,6 +10,10 @@ module.exports = {
     title: `Hello Stu`,
     description: `A simple starter for Gatsby. That's it.`,
     author: `Stuart Mackenzie`,
+    logo: {
+      src: '',
+      alt: '',
+    },
     siteUrl: `https://hellostu.xyz`,
     logoText: 'hello stu',
     defaultTheme: 'light',
