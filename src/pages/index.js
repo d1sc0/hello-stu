@@ -22,7 +22,7 @@ const IndexPage = () => (
           and exotic disco dancer.
         </p>
         <p className={style.introText}>
-          I use this site to share my personal{' '}
+          I use this site to share personal{' '}
           <Link to="/blog">thoughts and reflections</Link> but also
           occassionally as a sandpit to prototype and test ideas in code.
         </p>
