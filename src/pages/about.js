@@ -107,7 +107,7 @@ const AboutPage = ({ data }) => {
             write posts using <a href="https://www.typora.io/">Typora</a> which
             is a beautiful cross platform clutter-free markdown editor. I deploy
             the site to <a href="https://zeit.co/">ZEIT</a> static hosting using{' '}
-            <a href="https://circleci.com/">Circle CI</a>. All of the code and
+            <a href="https://circleci.com/">CircleCI</a>. All of the code and
             content is maintained in{' '}
             <a href="https://github.com/d1sc0/hello-stu">Github</a>.
           </p>
