@@ -82,11 +82,11 @@ const AboutPage = ({ data }) => {
           <p>
             This website is largely a selfish endevaour. I don't write often but
             it's a skill I know I should practice. Having the site gives me a
-            place to do just that. Often I write just as a method to process my
-            thoughts and as a method to bring structure to things I need to
-            unpick. For this reason I inevitably write more posts than I
-            publish. Hopefully the few that make it as far as publication might
-            be useful to someone other than me but that's not my primary goal.
+            place to do just that. Often I write just as a method to bring
+            structure to the things I have floating around in my head. For this
+            reason I inevitably write more posts than I publish. Hopefully the
+            few that make it as far as publication might be useful to someone
+            other than me but that's not my primary goal.
           </p>
           <p>
             Having a website also provides me a sandbox to test ideas and
