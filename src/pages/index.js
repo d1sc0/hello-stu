@@ -17,8 +17,8 @@ const IndexPage = () => (
         </p>
         <p className={style.introText}>
           I'm the Product & Technology Director at{' '}
-          <a href="https://www.wearefuturegov.com/">FutureGov</a>. I also run,
-          am a keen photographer, dog lover and baker.
+          <a href="https://www.wearefuturegov.com/">FutureGov</a>. I am also a
+          runner, keen photographer, dog lover and baker.
         </p>
         <p className={style.introText}>
           I use this site to share my personal{' '}
