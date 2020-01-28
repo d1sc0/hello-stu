@@ -60,18 +60,20 @@ const Header = props => {
               )}
             </div>
           </Link>
-          <span className={style.right}>
-            <Menu
-              mainMenu={mainMenu}
-              mainMenuItems={mainMenuItems}
-              isMobileMenuVisible={isMobileMenuVisible}
-              isSubMenuVisible={isSubMenuVisible}
-              menuMoreText={menuMoreText}
-              onToggleMobileMenu={onToggleMobileMenu}
-              onToggleSubMenu={onToggleSubMenu}
-              onChangeTheme={onChangeTheme}
-            />
-          </span>
+          <nav>
+            <span className={style.right}>
+              <Menu
+                mainMenu={mainMenu}
+                mainMenuItems={mainMenuItems}
+                isMobileMenuVisible={isMobileMenuVisible}
+                isSubMenuVisible={isSubMenuVisible}
+                menuMoreText={menuMoreText}
+                onToggleMobileMenu={onToggleMobileMenu}
+                onToggleSubMenu={onToggleSubMenu}
+                onChangeTheme={onChangeTheme}
+              />
+            </span>
+          </nav>
         </div>
       </header>
     </>
@@ -86,7 +88,7 @@ Header.propTypes = {
     PropTypes.shape({
       title: PropTypes.string,
       path: PropTypes.string,
-    }),
+    })
   ),
   mainMenuItems: PropTypes.number,
   menuMoreText: PropTypes.string,
