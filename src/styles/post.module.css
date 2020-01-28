@@ -81,3 +81,29 @@
 .social {
   margin-right: 10px;
 }
+
+.imageLeft {
+  width: 45%;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+
+  @media (--phone) {
+    float: none;
+    width: 100%;
+    margin-right: 0px;
+  }
+}
+
+.imageRight {
+  width: 45%;
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+
+  @media (--phone) {
+    float: none;
+    width: 100%;
+    margin-left: 0px;
+  }
+}

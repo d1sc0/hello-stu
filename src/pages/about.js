@@ -57,6 +57,11 @@ const AboutPage = ({ data }) => {
             </a>
           </p>
           <p>
+            <Image
+              fluid={aboutImage}
+              className={style.imageRight}
+              alt="Stuart Mackenzie"
+            />
             I live in <a href="https://www.visit-dorset.com/">Dorset</a> but
             spend much of my time working out of London transforming public
             services as the Product & Technology Director at{' '}
@@ -76,7 +81,6 @@ const AboutPage = ({ data }) => {
             <Link to="/contact">contact me</Link> or connect via any of the
             profiles below.
           </p>
-          <Image fluid={aboutImage} alt="Stuart Mackenzie" />
         </div>
       </div>
     </Layout>
