@@ -1,8 +1,10 @@
 import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import Form from '../components/form'
 import style from '../styles/post.module.css'
 import { Link } from 'gatsby'
+
 const ContactPage = () => (
   <Layout>
     <SEO
@@ -18,59 +20,7 @@ const ContactPage = () => (
           easier just submit a message using the form below! I'll try and
           respond as soon as I can.
         </p>
-        <form
-          id="fs-frm"
-          name="simple-contact-form"
-          accept-charset="utf-8"
-          action="https://formspree.io/xlegajel"
-          method="post"
-        >
-          <fieldset id="fs-frm-inputs">
-            <label for="full-name" className={style.controllabel}>
-              Full Name
-            </label>
-            <input
-              type="text"
-              name="full-name"
-              className={style.formcontrol}
-              id="full-name"
-              placeholder="Enter your name here..."
-              required
-            />
-            <label for="email-address" className={style.controllabel}>
-              Email Address
-            </label>
-            <input
-              type="email"
-              name="_replyto"
-              id="email-address"
-              className={style.formcontrol}
-              placeholder="email@domain.tld"
-              required
-            />
-            <label for="message" className={style.controllabel}>
-              Message
-            </label>
-            <textarea
-              rows="3"
-              name="message"
-              id="message"
-              className={style.formcontrol}
-              placeholder="Enter your message here..."
-              required
-            ></textarea>
-            <input
-              type="hidden"
-              name="_subject"
-              className={style.formcontrol}
-              id="email-subject"
-              value="Contact Form Submission"
-            />
-          </fieldset>
-          <button type="submit" className={style.contactbutton}>
-            Send
-          </button>
-        </form>
+        <Form />
       </div>
     </div>
   </Layout>
