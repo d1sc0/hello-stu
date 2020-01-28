@@ -17,13 +17,14 @@ const IndexPage = () => (
         </p>
         <p className={style.introText}>
           I'm the Product & Technology Director at{' '}
-          <a href="https://www.wearefuturegov.com/">FutureGov</a>. We work with
-          teams in and around public sector organisations to design and build
-          better services.
+          <a href="https://www.wearefuturegov.com/">FutureGov</a>. I work with
+          teams to design and implement services that aim to make our public
+          services more AWESOME.
         </p>
         <p className={style.introText}>
-          I use this site to test and prototype ideas and when the mood takes me
-          share <Link to="/blog">thoughts and reflections</Link>.
+          I use this site to share my personal{' '}
+          <Link to="/blog">thoughts and reflections</Link> but also as a sandpit
+          to prototype and test ideas in code.
         </p>
       </div>
     </div>
