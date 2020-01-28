@@ -62,24 +62,54 @@ const AboutPage = ({ data }) => {
               className={style.imageRight}
               alt="Stuart Mackenzie"
             />
-            I live in <a href="https://www.visit-dorset.com/">Dorset</a> but
-            spend much of my time working out of London transforming public
-            services as the Product & Technology Director at{' '}
+            I live in <a href="https://www.visit-dorset.com/">Dorset</a> along
+            with my wife Chloe, daughter Robyn and{' '}
+            <a href="https://www.instagram.com/m0nty_d0g/">
+              four-legged friend Monty
+            </a>
+            . I now spend much of my time working out of London transforming
+            public services as the Product & Technology Director at{' '}
             <a href="https://wearefuturegov.com">FutureGov</a>.
           </p>
           <p>
-            When not working I'm also known for being a father, husband,
-            technology nerd, photographer,{' '}
-            <a href="https://www.instagram.com/m0nty_d0g/">dog owner</a>,{' '}
-            <a href="https://www.pomranka.net/podgoat-cover/">podcaster</a>,{' '}
-            <a href="https://www.strava.com/athletes/1170885">runner</a> and
-            exotic disco dancer.{' '}
+            I've worked in a variety of technology & mangagement roles over the
+            last 20 years but largely I prefer people to computers and code. I'm
+            slightly obsessesed (in a healthy way) in making change happen
+            within organisations and I'm happiest when supporting teams and
+            clients navigate complexity (human and technical) to deliver better
+            outcomes for users.
           </p>
           <p>
-            I use this site as a sandbox to test ideas and occassionally share
-            my thoughts and reflections. Feel free to{' '}
-            <Link to="/contact">contact me</Link> or connect via any of the
-            profiles below.
+            This website is largely a selfish endevaour. I don't write often but
+            it's a skill I know I should practice. Having the site gives me a
+            place to do just that. Often I write just as a method to process my
+            thoughts and as a method to bring structure to things I need to
+            unpick. For this reason I inevitably write more posts than I
+            publish. Hopefully the few that make it as far as publication might
+            be useful to someone other than me but that's not my primary goal.
+          </p>
+          <p>
+            Having a website also provides me a sandbox to test ideas and
+            prototype in code. If things feel a little broken or don't work as
+            you suspect then this might be as a result of one of these
+            experiments.
+          </p>
+          <p>
+            I'm always open to making new connections with people. My social
+            profiles are included at the top of this page if you want to get in
+            touch or just be nosey but I've also provided a good old-fashioned{' '}
+            <Link to="/contact">contact form</Link> if that's more your thing!
+          </p>
+          <p>
+            For those interested in technology the site in it's current form has
+            been built using <a href="https://www.gatsbyjs.org/">Gatsby</a>{' '}
+            which is currently my favourite static site generator. I tend to
+            write posts using <a href="https://www.typora.io/">Typora</a> which
+            is a beautiful cross platform clutter-free markdown editor. I deploy
+            the site to <a href="https://zeit.co/">ZEIT</a> static hosting using{' '}
+            <a href="https://circleci.com/">Circle CI</a>. All of the code and
+            content is maintained in{' '}
+            <a href="https://github.com/d1sc0/hello-stu">Github</a>.
           </p>
         </div>
       </div>
