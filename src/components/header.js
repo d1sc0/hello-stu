@@ -45,7 +45,7 @@ const Header = props => {
           }
         />
       </Helmet>
-      <header className={style.header}>
+      <header id="top" className={style.header}>
         <div className={style.inner}>
           <Link to="/">
             <div className={style.logo}>
@@ -60,20 +60,19 @@ const Header = props => {
               )}
             </div>
           </Link>
-          <nav>
-            <span className={style.right}>
-              <Menu
-                mainMenu={mainMenu}
-                mainMenuItems={mainMenuItems}
-                isMobileMenuVisible={isMobileMenuVisible}
-                isSubMenuVisible={isSubMenuVisible}
-                menuMoreText={menuMoreText}
-                onToggleMobileMenu={onToggleMobileMenu}
-                onToggleSubMenu={onToggleSubMenu}
-                onChangeTheme={onChangeTheme}
-              />
-            </span>
-          </nav>
+
+          <span className={style.right}>
+            <Menu
+              mainMenu={mainMenu}
+              mainMenuItems={mainMenuItems}
+              isMobileMenuVisible={isMobileMenuVisible}
+              isSubMenuVisible={isSubMenuVisible}
+              menuMoreText={menuMoreText}
+              onToggleMobileMenu={onToggleMobileMenu}
+              onToggleSubMenu={onToggleSubMenu}
+              onChangeTheme={onChangeTheme}
+            />
+          </span>
         </div>
       </header>
     </>
