@@ -2,6 +2,7 @@
 title: 'Fresh paint'
 date: '2020-01-28'
 path: '/blog/fresh-paint'
+tags: ["tech and data"]
 ---
 
 ![Fresh paint](../images/spraycans.jpg)
