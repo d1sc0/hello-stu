@@ -91,8 +91,8 @@ const AboutPage = ({ data }) => {
           <p>
             Having a website also provides me a sandbox to test ideas and
             prototype in code. If things feel a little broken or don't work as
-            you suspect they should then this might be as a result of one of
-            these experiments.
+            you expect then this might be as a result of one of these
+            experiments.
           </p>
           <p>
             I'm always open to making new connections with people. My social
