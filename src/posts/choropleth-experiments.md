@@ -1,10 +1,10 @@
 ---
-title: "Choropleth Experiments"
-date: "2019-04-25"
-path: "/blog/choropleth-experiments"
+title: 'Choropleth Experiments'
+date: '2019-04-25'
+path: '/blog/choropleth-experiments'
 ---
 
-> This post was written whilst I was still using ghost. I haven't had time during migration to get this experiment working within my new Gatsby setup bu if you are interested you can still see the results over at this [static page on github](https://d1sc0.github.io/choropleth_experiment/index.html)
+> This post was written whilst I was still using the ghost blogging platform. I haven't had time during migration to get this experiment working within my new Gatsby setup bu if you are interested you can still see the results over at this [static page on github](https://d1sc0.github.io/choropleth_experiment/index.html)
 
 So I think I've now mentioned several times in my weeknotes that I've been bitten by the data visualisation bug during my recent course with the ODI. I've also mentioned that I found using Public Tableau for [one of my assignments](https://d1sc0.github.io/odi_assignment3/) fairly frustrating so wanted to play with some other tools and methods. The interactive [choropleth map](https://en.wikipedia.org/wiki/Choropleth_map) below is one of my first experiments in doing just that.
 It's a pretty throw-away experiment and I put my hands up to having done no analysis of the data. The reason for keeping it themed to fire incidents for the moment was purely based on knowing it was relatively simple to get hold of data that would be ready to work with. It's showing the total number of incidents attended by Fire Authorities in England between Apr and Sep 2018. Data was sourced from [gov.uk (FIRE0102)](https://www.gov.uk/government/statistical-data-sets/fire-statistics-data-tables#incidents-attended).
