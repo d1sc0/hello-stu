@@ -72,12 +72,12 @@ const AboutPage = ({ data }) => {
             <a href="https://wearefuturegov.com">FutureGov</a>.
           </p>
           <p>
-            I've worked in a variety of technology & mangagement roles over the
+            I've worked in a variety of technology & management roles over the
             last 20 years but largely I prefer people to computers and code. I'm
-            slightly obsessesed (in a healthy way) in making change happen
-            within organisations and I'm happiest when supporting teams and
-            clients navigate complexity (human and technical) to deliver better
-            outcomes for users.
+            slightly obsessed (in a healthy way) in making change happen within
+            organisations and I'm happiest when supporting teams and clients
+            navigate complexity (human and technical) to deliver better outcomes
+            for users.
           </p>
           <p>
             This website is largely a selfish endevaour. I don't write often but
