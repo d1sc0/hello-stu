@@ -1,8 +1,8 @@
 ---
-title: "Week1 - Be more like Robbie"
-date: "2019-03-15"
-path: "/blog/wk1-be-more-like-robbie"
-tags: ["Weeknotes"]
+title: 'Week1 - Be more like Robbie'
+date: '2019-03-15'
+path: '/blog/wk1-be-more-like-robbie'
+tags: ['Weeknotes']
 ---
 
 <iframe
@@ -19,7 +19,7 @@ I’ve tried to write [weeknotes](https://weeknot.es/) on multiple occasions and
 
 I’m more actively and purposefully trying to improve and grow at the moment so this is one area where I’m going to have to pull on my [big boy pants](https://www.youtube.com/watch?v=5Vtlovqijjo), get over myself and take a leap of faith. I’m going to take inspiration from folks like [Robbie Bates](https://twitter.com/robbie_bates), rather than just use the great work of others as another opportunity to make silly comparisons that hold me back. I’m going to be more like Robbie (just less handsome..and more grumpy)! I’ll need to play with some different formats / styles and find a routine that works…but I will publish this.
 
-![tweet-pic](../images/tweet-shame.png)
+![tweet-pic](../images/tweet-shame.jpg)
 _Shame on me!_
 
 ## Top 3 highlights
