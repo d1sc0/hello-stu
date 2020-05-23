@@ -19,6 +19,7 @@ const Form = () => {
             name="full-name"
             className={style.formcontrol}
             id="full-name"
+            aria-label="full name"
             placeholder="Enter your name here..."
             required
           />
@@ -27,6 +28,7 @@ const Form = () => {
           </label>
           <input
             type="email"
+            aria-label="email address"
             name="_replyto"
             id="email-address"
             className={style.formcontrol}
@@ -39,6 +41,7 @@ const Form = () => {
           <textarea
             rows="3"
             name="message"
+            aria-label="Message"
             id="message"
             className={style.formcontrol}
             placeholder="Enter your message here..."
@@ -47,12 +50,13 @@ const Form = () => {
           <input
             type="hidden"
             name="_subject"
+            aria-label="Subject"
             className={style.formcontrol}
             id="email-subject"
             value="Contact Form Submission"
           />
         </fieldset>
-        <button type="submit" className={style.contactbutton}>
+        <button type="submit" aria-label="Send" className={style.contactbutton}>
           Send
         </button>
       </form>

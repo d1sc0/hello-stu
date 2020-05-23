@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
@@ -5,7 +7,6 @@ import { Link } from 'gatsby'
 import Icon from './icon'
 
 import style from '../styles/menu.module.css'
-
 const MainMenu = ({ mainMenu, mainMenuItems, isMobileMenu }) => {
   const menu = mainMenu.slice(0)
   !isMobileMenu && menu.splice(mainMenuItems)
@@ -30,7 +31,7 @@ const SubMenu = ({ mainMenu, mainMenuItems, onToggleSubMenu }) => {
   return (
     <>
       {items}
-      {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events */}
+
       <div
         className={style.subMenuOverlay}
         role="button"
@@ -64,11 +65,10 @@ const Menu = ({
         <>
           {isMobileMenuVisible ? (
             <>
-              {/* eslint-enable */}
               <ul className={style.mobileMenu}>
                 <MainMenu mainMenu={mainMenu} isMobileMenu />
               </ul>
-              {/* eslint-disable */}
+
               <div
                 onClick={onToggleMobileMenu}
                 className={style.mobileMenuOverlay}
@@ -130,7 +130,7 @@ Menu.propTypes = {
     PropTypes.shape({
       title: PropTypes.string,
       path: PropTypes.string,
-    }),
+    })
   ),
   mainMenuItems: PropTypes.number,
   menuMoreText: PropTypes.string,
@@ -146,7 +146,7 @@ SubMenu.propTypes = {
     PropTypes.shape({
       title: PropTypes.string,
       path: PropTypes.string,
-    }),
+    })
   ),
   mainMenuItems: PropTypes.number,
   onToggleSubMenu: PropTypes.func,
