@@ -5,4 +5,3 @@ Personal website and blog built with love using [gatbsy.js](https://www.gatsbyjs
 ## Things to do
 
 - write some posts
-- make 404 page better
