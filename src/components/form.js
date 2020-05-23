@@ -11,7 +11,7 @@ const Form = () => {
         method="post"
       >
         <fieldset id="fs-frm-inputs">
-          <label for="full-name" className={style.controllabel}>
+          <label htmlFor="full-name" className={style.controllabel}>
             Full Name
           </label>
           <input
@@ -22,7 +22,7 @@ const Form = () => {
             placeholder="Enter your name here..."
             required
           />
-          <label for="email-address" className={style.controllabel}>
+          <label htmlFor="email-address" className={style.controllabel}>
             Email Address
           </label>
           <input
@@ -33,7 +33,7 @@ const Form = () => {
             placeholder="email@domain.tld"
             required
           />
-          <label for="message" className={style.controllabel}>
+          <label htmlFor="message" className={style.controllabel}>
             Message
           </label>
           <textarea

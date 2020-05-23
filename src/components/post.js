@@ -1,10 +1,10 @@
-import React from "react"
-import PropTypes from "prop-types"
-import { Link } from "gatsby"
-import Navigation from "./navigation"
-import { toKebabCase } from "../helpers"
+import React from 'react'
+import PropTypes from 'prop-types'
+import { Link } from 'gatsby'
+import Navigation from './navigation'
+import { toKebabCase } from '../helpers'
 
-import style from "../styles/post.module.css"
+import style from '../styles/post.module.css'
 
 const Post = ({
   title,
@@ -34,8 +34,9 @@ const Post = ({
             </h1>
 
             <div className={style.meta}>
-              Posted: {date} // {readingTime.text}
-              {author && <> // Written by {author}</>}
+              Posted: {date}
+              {' // '}
+              {readingTime.text}
             </div>
             <p className={style.postExcerpt}>{excerpt}</p>
             {tags ? (
@@ -56,8 +57,9 @@ const Post = ({
           <>
             <h1 className={style.title}>{title}</h1>
             <div className={style.meta}>
-              {date} // {readingTime.text}{" "}
-              {author && <> // Written by {author}</>}
+              {date}
+              {' // '}
+              {readingTime.text}
             </div>
             {tags ? (
               <div className={style.tags}>
