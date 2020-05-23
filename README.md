@@ -1,10 +1,8 @@
-# Hello Stu
+# hellostu
+
+Personal website and blog built with love using [gatbsy.js](https://www.gatsbyjs.org/) - loosely based on the [hello friend starter](https://github.com/panr/gatsby-starter-hello-friend)
 
 ## Things to do
 
-- fix colour contrast issues
+- write some posts
 - make 404 page better
-- update about page content
-- test
-- take down words.lost and repoint/redirect domain name
-- update social profiles with new domain
