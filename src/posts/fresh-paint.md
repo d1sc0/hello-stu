@@ -2,7 +2,7 @@
 title: 'Fresh paint'
 date: '2020-01-28'
 path: '/blog/fresh-paint'
-tags: ["tech and data"]
+tags: ['tech and data']
 ---
 
 ![Fresh paint](../images/spraycans.jpg)
@@ -61,4 +61,4 @@ Maybe the new paint will even inspire me to publish more posts....maybe 😂
 
 ---
 
-Photo Credit: [Joey Huang on Unsplash](https://unsplash.com/photos/XfIuCOl8kI8)
+Photo Credit:- [Joey Huang on Unsplash](https://unsplash.com/photos/XfIuCOl8kI8)
