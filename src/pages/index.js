@@ -16,7 +16,7 @@ const IndexPage = () => (
           Hello, I'm <Link to="/about">Stuart Mackenzie</Link>.
         </p>
         <p className={style.introText}>
-          I'm the Product & Technology Director at{' '}
+          I'm an Executive Director at{' '}
           <a href="https://www.wearefuturegov.com/">FutureGov</a>. I'm also
           known for being a father, husband, runner, photography nerd, dog owner
           and exotic disco dancer.
