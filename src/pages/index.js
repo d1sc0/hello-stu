@@ -8,7 +8,7 @@ const IndexPage = () => (
   <Layout>
     <SEO
       title="Home"
-      description="Home of Stuart Mackenzie - Director of Product & Tech at FutureGov. Also known as a father, husband, occassional runner, podcaster, photographer, blogger and nice human."
+      description="Home of Stuart Mackenzie - Executive Director at FutureGov. Also known as a father, husband, occassional runner, podcaster, photographer, blogger and nice human."
     />
     <div className={style.post}>
       <div className={style.postContent}>

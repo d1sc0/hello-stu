@@ -19,7 +19,7 @@ const AboutPage = ({ data }) => {
     <Layout>
       <SEO
         title="About Stuart Mackenzie"
-        description="Stuart Mackenzie - Director of Product & Tech at FutureGov. Also known as a father, husband, occassional runner, podcaster, photographer, blogger and nice human."
+        description="Stuart Mackenzie - Executive Director at FutureGov. Also known as a father, husband, occassional runner, podcaster, photographer, blogger and nice human."
       />
       <div className={style.post}>
         <div className={style.postContent}>
@@ -68,7 +68,7 @@ const AboutPage = ({ data }) => {
               four-legged friend Monty
             </a>
             . I now spend much of my time working out of London transforming
-            public services as the Product & Technology Director at{' '}
+            public services as an Executive Director at{' '}
             <a href="https://wearefuturegov.com">FutureGov</a>.
           </p>
           <p>
